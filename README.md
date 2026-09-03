@@ -74,6 +74,14 @@ Regression models were also evaluated.
 | Physics-Informed Regression | 0.9976 | 0.0973 | 0.1277 |
 | Interaction Regression | 0.9984 | 0.0826 | 0.1049 |
 
+## Key Findings
+
+- The experimental range followed the expected projectile-motion pattern, increasing toward a launch angle near 45° and decreasing at higher angles.
+- The theoretical model closely matched the simulated measurements, with an MAE of 0.0829 m and an RMSE of 0.1050 m.
+- Physics-informed regression substantially outperformed the basic linear regression model.
+- The interaction regression model achieved the strongest training performance, with R² = 0.9984, MAE = 0.0826 m, and RMSE = 0.1049 m.
+- Residuals were generally distributed around zero without an obvious systematic trend across launch angles.
+
 ## Power BI Dashboard
 
 The Power BI dashboard includes:
